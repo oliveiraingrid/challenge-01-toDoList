@@ -1,0 +1,33 @@
+.newTask {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: -24px;
+}
+
+.newTask input {
+  
+  width: 638px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+}
+
+.newTask button{
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--Blue-Dark);
+  color: var(--white);
+  border: none;
+}
