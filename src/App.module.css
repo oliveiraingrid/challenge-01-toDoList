@@ -1,0 +1,12 @@
+.body {
+  margin: 0 auto;
+  max-width: 736px;
+  
+}
+
+.page {
+  flex: 1;
+  background: var(--gray-600);
+  
+
+}

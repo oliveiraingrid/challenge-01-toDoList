@@ -1,17 +1,25 @@
-import { Header } from "./components/Header"
-import { NewTask } from "./components/NewTask"
+import { Body } from "./components/Body";
+import { Info } from "./components/Info";
 
-import './global.css';
+import { Header } from "./components/Header";
+import { NewTask } from "./components/NewTask";
 
-export function App() { 
+import "./global.css";
+import styles from "./App.module.css";
 
+export function App() {
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <Header />
-      <NewTask />
+
+      <div className={styles.page}>
+        <NewTask />
+
+        <div className={styles.body}>
+          <Info />
+          <Body />
+        </div>
+      </div>
     </div>
-    
-  )
+  );
 }
-
-

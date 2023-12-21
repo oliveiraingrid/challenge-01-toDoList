@@ -27,7 +27,7 @@
   align-items: center;
   gap: 8px;
   border-radius: 8px;
-  background: var(--Blue-Dark);
+  background: var(--blue-Dark);
   color: var(--white);
   border: none;
 }
