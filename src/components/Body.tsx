@@ -1,9 +1,18 @@
 import ClipBoard from "../assets/Clipboard.png";
 import styles from "./Body.module.css";
+import { Task } from "./Task.tsx";
 
 export function Body() {
   return (
     <section className={styles.containerBody}>
+
+      <div className={styles.listTask}>
+        <Task/>
+        <Task/>
+        <Task/>
+        
+      </div>
+
       <img className={styles.clipBoard} src={ClipBoard} alt="" />
 
       <p className={`${styles.text} ${styles.textBold}`}>

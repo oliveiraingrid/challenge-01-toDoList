@@ -1,6 +1,6 @@
 .newTask {
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -8,19 +8,24 @@
 }
 
 .newTask input {
-  
   width: 638px;
   display: flex;
   padding: 16px;
   align-items: center;
   gap: 8px;
-  
+
   border-radius: 8px;
   border: 1px solid var(--gray-700);
   background: var(--gray-500);
+
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
 }
 
-.newTask button{
+.newTask button {
   display: flex;
   padding: 16px;
   justify-content: center;
@@ -30,4 +35,5 @@
   background: var(--blue-Dark);
   color: var(--white);
   border: none;
+  cursor: pointer;
 }
