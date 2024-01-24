@@ -9,18 +9,18 @@ export function Body() {
       <div className={styles.listTask}>
         <Task/>
         <Task/>
-        <Task/>
-        
       </div>
 
-      <img className={styles.clipBoard} src={ClipBoard} alt="" />
+      <div className={styles.bodyEmpty}>
+        <img className={styles.clipBoard} src={ClipBoard} alt="" />
 
-      <p className={`${styles.text} ${styles.textBold}`}>
-        Você ainda não tem tarefas cadastradas{" "}
-      </p>
-      <p className={`${styles.text} ${styles.textSimple}`}>
-        Crie tarefas e organize seus itens a fazer
-      </p>
+        <p className={`${styles.text} ${styles.textBold}`}>
+          Você ainda não tem tarefas cadastradas
+        </p>
+        <p className={styles.text}>
+          Crie tarefas e organize seus itens a fazer
+        </p>
+      </div>
     </section>
   );
 }

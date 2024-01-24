@@ -44,9 +44,9 @@
   flex: 1 0 0;
   color: var(--gray-100);
   margin: 0;
-  font-family: "Inter";
+  
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  
   line-height: 140%;
 }
